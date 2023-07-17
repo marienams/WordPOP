@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="M_MyWordPop2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:M_MyWordPop2"
+    Shell.FlyoutBehavior="Flyout">
+
+
+    <ShellContent
+        Title="Home"
+        Icon="{AppThemeBinding Dark=home_light.png, Light=home_dark.png}" 
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Title="Terms-Definitions"
+        Icon="{AppThemeBinding  Dark=td_icon_light.png, Light=td_icon_dark.png}" 
+
+        ContentTemplate="{DataTemplate local:P_TermDefinition}"
+        Route="Terms-Definitions" />
+
+
+    <ShellContent
+        Title="Quiz"
+        Icon="{AppThemeBinding  Dark=quiz_icon_light.png, Light=quiz_icon_dark.png}"
+
+        ContentTemplate="{DataTemplate local:P_Quiz}"
+        Route="Quiz" />
+
+    <ShellContent
+        Title="Play"
+        Icon="{AppThemeBinding  Dark=play_icon_light.png, Light=play_icon_dark.png}"
+        ContentTemplate="{DataTemplate local:P_Play}"
+        Route="Play" />
+
+    
+</Shell>

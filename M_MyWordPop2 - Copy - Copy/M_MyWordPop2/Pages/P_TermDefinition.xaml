@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="M_MyWordPop2.P_TermDefinition"
+             Title="Term-Definition">
+    <ScrollView>
+        <VerticalStackLayout Padding="15" VerticalOptions="CenterAndExpand">
+            <SearchBar x:Name="SBar_FilterTerm" Placeholder="Enter term to filter" TextChanged="SBar_FilterTerm_TextChanged"/>
+
+            <CollectionView x:Name="CV_TermDefinition" SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid x:Name="Gd_TermDefinition" ColumnDefinitions="150,*,50">
+                            <Label Text="{Binding term}" Margin="4" FontAttributes="Bold" />
+                            <Label Text="{Binding definition}" Margin="4" Grid.Column="1"/>
+
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <VerticalStackLayout Padding="15" VerticalOptions="CenterAndExpand">
+                <Label Text="Term" Margin="4"/>
+                <Entry x:Name="Entry_newTerm" />
+                <Label Text="Definition" Margin="4"/>
+                <Entry x:Name="Entry_newDefinition" />
+            </VerticalStackLayout>
+            <HorizontalStackLayout Padding="5">
+                <Button x:Name="Btn_AddTerm" Text="Add new term" Style="{x:StaticResource Styl_Btn}" Clicked="Btn_AddTerm_Clicked" HorizontalOptions="Center" Margin="5"/>
+                <Button x:Name="Btn_DelTerm" Text="Delete term" Style="{x:StaticResource Styl_Btn}" Clicked="Btn_DelTerm_Clicked" HorizontalOptions="Center" Margin="5"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

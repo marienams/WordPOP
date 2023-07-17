@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="M_MyWordPop2.MainPage"
+             NavigationPage.HasBackButton="False"
+             Title="Welcome">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Welcome to WordPOP!"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="Title"
+                HorizontalOptions="Center" 
+                VerticalOptions="Start"/>
+            <Image
+                Source="home.jpg"
+                SemanticProperties.Description="Source Credit: iStock by Gelly images"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            
+
+            <VerticalStackLayout HorizontalOptions="CenterAndExpand" >
+                <Label
+                Text="Learn different terms and their meaning. Create and add new terms and definitions to the Term-Definition directory. Embark on a journey by answering questions and playing a game.Test your knowledge by giving quiz."
+                
+                FontSize="Micro"
+                 />
+                <Label Margin="0,25,0,0"
+                Text="You can select your option from menu."
+                       FontAttributes="Bold"
+                FontSize="Small"
+                 />
+                <Label
+                    Text=""
+                    FontSize="Micro"
+                    HorizontalOptions="Center"/>
+                <Label
+                    Text=""
+                    FontSize="Micro"
+                    HorizontalOptions="Center"/>
+
+            </VerticalStackLayout>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

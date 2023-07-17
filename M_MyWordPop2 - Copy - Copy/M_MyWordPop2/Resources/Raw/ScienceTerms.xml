@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfScienceTerm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ScienceTerm>
+		<term>Anatomy</term>
+		<definition>Study of internal structure of organism.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Agrology</term>
+		<definition>Soil science dealing specially with production of crop.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Agronomy</term>
+		<definition>Science of soil management and production of crop.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Acceleration</term>
+		<definition>the rate of increase of speed or the rate of change of velocity</definition>
+		<subject>Physics</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Alternating Current</term>
+		<definition>a continuous electric current that periodically reverses direction, usually sinusoidally</definition>
+		<subject>Physics</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Ampere</term>
+		<definition>the basic SI unit of electric current</definition>
+		<subject>Physics</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Agrostology</term>
+		<definition>Study of grass.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Arthrology</term>
+		<definition> Study of joins.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Apiculture</term>
+		<definition>rearing of honey bee for honey.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Anthropology</term>
+		<definition>Study of origin, development and relationship between the culture of past and present human.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Anthology</term>
+		<definition>Study of flower and flowering plant.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Angiology</term>
+		<definition>Study of blood vascular system including arteries and veins.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Bryology</term>
+		<definition> Study of bryophytes.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Biometrics</term>
+		<definition>Statical study of biological problem.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Biomedical engineering</term>
+		<definition>Production and designing of spare part for man for overcoming various defects in man .e.g. artificial limbs, Iron lung, Pacemaker etc.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+	<ScienceTerm>
+		<term>Biotechnology</term>
+		<definition>Technology connected with living being for wilful manipulation on molecular level.</definition>
+		<subject>Biology</subject>
+		<isEditable>false</isEditable>
+	</ScienceTerm>
+</ArrayOfScienceTerm>

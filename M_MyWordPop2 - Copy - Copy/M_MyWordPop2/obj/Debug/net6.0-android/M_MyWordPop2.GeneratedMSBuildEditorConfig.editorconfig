@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = M_MyWordPop2
+build_property.ProjectDir = C:\Users\Windows 10\source\repos\M_MyWordPop2 - Copy - Copy\M_MyWordPop2\
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/Pages/P_Play.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.Pages.P_Play.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\P_Play.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\P_Play.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/Pages/P_Quiz.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.Pages.P_Quiz.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\P_Quiz.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\P_Quiz.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/Pages/P_Subject.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.Pages.P_Subject.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\P_Subject.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\P_Subject.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/Pages/P_TermDefinition.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.Pages.P_TermDefinition.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\P_TermDefinition.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\P_TermDefinition.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Windows 10/source/repos/M_MyWordPop2 - Copy - Copy/M_MyWordPop2/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = M_MyWordPop2.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="M_MyWordPop2.P_Quiz"
+             Title="Quiz">
+    <VerticalStackLayout Padding="30,0" Spacing="25">
+        
+        <Label Padding="15" Text="{Binding questionText}"/>
+        <CollectionView x:Name="CV_answers"
+                        ItemsSource="{Binding answers}"
+                        SelectionMode="Single"
+                        SelectionChanged="CV_answers_SelectionChanged">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid ColumnDefinitions="auto,*" HorizontalOptions="Center" >
+                        <BoxView HeightRequest="10" WidthRequest="10" Grid.Column="0" Margin="5"/>
+                        <Label Text="{Binding text}"
+                               Padding="5"
+                               Grid.Column="1"/>
+
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>
